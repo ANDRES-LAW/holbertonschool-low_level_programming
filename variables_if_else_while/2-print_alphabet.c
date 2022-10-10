@@ -16,6 +16,12 @@ int main(void)
 		putchar(c);
 		c++;
 	}
+	c = 65;
+	while (c < 91)
+        {
+		putchar(c);
+		c++;
+	}
 	putchar('\n');
 	return (0);
 }
