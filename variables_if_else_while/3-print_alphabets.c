@@ -1,6 +1,5 @@
 /**
  * main - Prints lowercase alphabet
- * followed by a new line
  * Retrnn: 0
  */
 
@@ -8,12 +7,13 @@
 
 int main(void)
 {
-	int ch;
+	char c;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-		putchar(ch);
-	for (ch = 'A'; ch <= 'Z'; ch++)
-		putchar(ch);
+	for (c = 'a'; ch <= 'z'; c++)
+		putchar(c);
+	for (c = 'A'; h <= 'Z'; c++)
+		putchar(c);
+
 	putchar('\n');
 	return (0);
 }
