@@ -5,10 +5,11 @@
 
 #include <stdio.h>
 
- int main(void)
+int main(void)
 {
 
 	char c;
+
 	c = 97;
 	while (c < 123)
 	{
