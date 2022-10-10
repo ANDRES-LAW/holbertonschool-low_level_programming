@@ -1,26 +1,18 @@
+#include <stdio.h>
+
 /**
  * main -prints lowercase alphabet
  * Retusr: 0
  */
 
-#include <stdio.h>
-
 int main(void)
 {
-	char c;
+	int ch;
 
-	c = 97;
-        while (c < 123)
-	{
-		putchar(c);
-		c++;
-	}
-	c = 65;
-	while (c < 91)
-	{ 
-		putchar(c);
-		c++;
-	}
-	putchar ('/n');
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
+	for (ch = 'A'; ch <= 'Z'; ch++)
+		putchar(ch);
+	putchar('\n');
 	return (0);
 }
