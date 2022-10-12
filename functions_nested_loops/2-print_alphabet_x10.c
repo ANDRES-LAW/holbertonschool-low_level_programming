@@ -11,12 +11,18 @@ void print_alphabet_x10(void)
 	int t;
 
 	c = 97;
-	t = 0;		
+
+	t = 0;
+
 	while (t < 10)
 	{	
 		while (c < 123)
 		{
-			_putchar(c);									   c++;									      }
-		c = 97;										   t++;										      _putchar('\n');
-											    }
+			_putchar(c);
+			c++;
+		}
+		c = 97;
+		t++;
+		_putchar('\n');
+	}
 }
