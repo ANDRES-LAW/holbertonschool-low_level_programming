@@ -15,7 +15,8 @@ void print_alphabet_x10(void)
 	t = 0;
 
 	while (t < 10)
-	{	
+	{
+
 		while (c < 123)
 		{
 			_putchar(c);
