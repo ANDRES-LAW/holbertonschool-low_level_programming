@@ -12,7 +12,7 @@ void print_triangle(int size)
 		int spaces;
 		int i;
 		int j;
-		
+
 		lines = 1;
 		while (lines <= size)
 		{
