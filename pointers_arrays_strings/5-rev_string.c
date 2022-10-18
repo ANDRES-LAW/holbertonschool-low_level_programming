@@ -9,7 +9,7 @@ int _strlen(char *s)
 	int i;
 	int len;
 
-	i= 0;
+	i = 0;
 	len = 0;
 	while (*(s + i) != '\0')
 	{
@@ -28,9 +28,9 @@ void rev_string(char *s)
 	int i;
 	int j;
 	char c;
+
 	i = _strlen(s) - 1;
-	j = 0;
-	
+	j = 0;	
 	while (i >= j)
 	{
 		c = *(s + j);
