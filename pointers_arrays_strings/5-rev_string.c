@@ -30,7 +30,7 @@ void rev_string(char *s)
 	char c;
 
 	i = _strlen(s) - 1;
-	j = 0;	
+	j = 0;
 	while (i >= j)
 	{
 		c = *(s + j);
