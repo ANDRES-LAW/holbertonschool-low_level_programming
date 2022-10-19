@@ -36,7 +36,7 @@ char *_strcat(char *dest, char *src)
 	lensrc = _strlen(src);
 	lenfdest = lendest + lensrc;
 	i = 0;
-	
+
 	while (lendest <= lenfdest)
 	{
 		*(dest + lendest) = *(src + i);
